@@ -6,7 +6,7 @@ Terningerne har to farve parametre man kan ændre på; terningens farve og øjne
 
 Normalt så har terningerne kun 6 sider, men man kan ændre det til et højere tal med terningernes variabel "maxNumber". Hvis man vil ændre på flere terninger og de er i et DiceCup objekt, så kan man bruge funktionen setMaxNumber(int num).
 
-Der er kun 9 sider af en terning som kan vises med øjne, så hvis terningens tal er højere vil tallet være skrevet på terningen i stedet for øjne.
+I det her program kan der vises 9 øjne på en side af en terning, så hvis en terning lander på tal som er højere end det, så vil tallet blive vist på terningen i stedet for øjne.
 
 Terningerne er altid firkanten, lige meget hvor mange sider du angiver den skal have.
 
