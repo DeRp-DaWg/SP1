@@ -63,4 +63,10 @@ class DiceCup {
       line(x, y-dieSize/4+i*dieSize*1.5, x+dieSize*1.5*colNum-dieSize*0.5, y-dieSize/4+i*dieSize*1.5);
     }
   }
+  void setMaxNumber(int num) {
+    for (int i = 0; i < cup.size(); i++) {
+      cup.get(i).maxNumber = num;
+    }
+    shake();
+  }
 }
